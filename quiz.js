@@ -6,9 +6,9 @@ function checkAnswer() {
             userAnswer = inp.value;
         }
     })
-    if(userAnswer === correctAnswer){
+    if (userAnswer === correctAnswer){
         document.getElementById("feedback").innerText = "Correct! Well done.";
-    }else{
+    } else{
         document.getElementById("feedback").innerText = "That's incorrect. Try again!";
     }
 }
